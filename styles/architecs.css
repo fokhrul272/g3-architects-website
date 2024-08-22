@@ -100,6 +100,29 @@ color: #131313;
     color: #FF900E;
     font-weight: bold;
   }
+  /* facts related styles */
+  .facts-card-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .facts-card-container .card{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+  }
+  .facts-card-container .card-stats {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: semibold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .facts-card-container .card-title {
+    font-size: 1.25rem;
+    font-weight: semibold;
+    margin-top: 10px;
+  }
   /* responsive related styles */
 /* mobile device */
 @media screen and (max-width: 576px) {
@@ -114,6 +137,7 @@ color: #131313;
   }
   .teams-content{
     padding-left: 20px;
+  
     padding-right: 20px;
    }
 }
