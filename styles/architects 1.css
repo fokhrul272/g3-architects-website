@@ -1,0 +1,15 @@
+/* shared styles */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;}
+header{
+    background-color: #FFF8F3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav >ul{
+    
+}
